@@ -1,0 +1,69 @@
+.todo_items {
+  display: flex;
+  border: 1px solid;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-radius: 20px;
+  padding: 0% 2%;
+  margin-top: 3rem;
+  background-color: #14274e;
+  color: #fff;
+}
+
+.todo_items_button {
+  border-radius: 50%;
+  padding: 1% 3%;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+.todo_items_button:hover {
+  transform: scale(1.5);
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.todo_items_button:hover,
+.todo_items:hover {
+  transition: 0.3s;
+}
+.todo_items:hover {
+  transform: scale(1.1);
+}
+
+.todo_task_done {
+  background-color: #ddffbc;
+}
+.todo_task_not_done {
+  background-color: #ff7171;
+}
+
+.todo_input_container {
+  background-color: #f1f6f9;
+  border-radius: 20px;
+  width: 55%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  height: 50px;
+}
+.todo_input_container > input {
+  background-color: #f1f6f9;
+  width: 100%;
+}
+.todo_input_container > input:focus {
+  outline: none;
+}
+.todo_input_container > button,
+.todo_input_container > input {
+  border-radius: inherit;
+  border: none;
+}
+.todo_input_container > button {
+  width: 20%;
+  position: relative;
+  z-index: 1;
+  background-color: #9ba4b4;
+}
