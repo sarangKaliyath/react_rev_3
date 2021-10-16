@@ -1,0 +1,44 @@
+.container {
+  height: 220px;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.quantity div > span,
+.container {
+  border: 1px solid black;
+}
+
+.quantity,
+.container,
+.price {
+  display: flex;
+}
+.quantity > div,
+.container {
+  justify-content: space-evenly;
+}
+.quantity > div {
+  width: 40%;
+  display: flex;
+}
+.quantity div > span {
+  text-align: center;
+  width: 50px;
+  padding: 0% 5%;
+}
+
+.quantity div > button {
+  padding: 1% 5%;
+}
+.quantity div > button,
+.more,
+.price span > button {
+  cursor: pointer;
+}
+.price {
+  justify-content: space-between;
+}
+.more {
+  color: #6276fd;
+}
